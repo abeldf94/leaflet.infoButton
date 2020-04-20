@@ -6,7 +6,7 @@ The code is a modified version of the [Leaflet.infoButton](https://github.com/Ec
 ## Usage: 
 You can install this plugin via npm:
 ```
-npm i leaflet.infoButton
+npm i leaflet.infobutton
 ```
 After install, you can import and use:
 ```
