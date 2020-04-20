@@ -1,0 +1,103 @@
+.leaflet-info-control {
+  cursor: pointer;
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  background: #fff;
+  border: 2px solid rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  background-clip: padding-box;
+  text-align: center
+}
+
+.leaflet-info-control i {
+  margin-top: 5px
+}
+
+.leaflet-info-window {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  max-height: 75%;
+  left: 20%;
+  top: 10%;
+  width: 60%;
+  background-color: #fff;
+  border-radius: 30px
+}
+
+.leaflet-info-window-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1000!important;
+  display: none;
+  cursor: auto;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: small
+}
+
+@media screen and (max-width:720px) {
+  .leaflet-info-window {
+      left: 10%;
+      top: 10%;
+      width: 80%
+  }
+}
+
+.leaflet-info-window .leaflet-title {
+  padding: 1% 10%;
+  text-align: center
+}
+
+.leaflet-info-window .leaflet-title * {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 700
+}
+
+.leaflet-info-window .leaflet-content {
+  overflow: auto;
+  border-top: 1px solid #d0d0d0;
+  padding: 3% 7% 0 5%;
+  text-align: justify;
+  text-indent: 3em;
+  margin-bottom: 15px;
+}
+
+@-webkit-keyframes showInfo {
+  from {
+      top: -100%
+  }
+  to {
+      top: 10%
+  }
+}
+
+@keyframes showInfo {
+  from {
+      top: -100%
+  }
+  to {
+      top: 10%
+  }
+}
+
+@-webkit-keyframes hideInfo {
+  from {
+      top: 10%
+  }
+  to {
+      top: -100%
+  }
+}
+
+@keyframes hideInfo {
+  from {
+      top: 10%
+  }
+  to {
+      top: -100%
+  }
+}

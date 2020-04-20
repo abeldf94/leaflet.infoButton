@@ -1,0 +1,21 @@
+{
+  "name": "leaflet-info-button",
+  "version": "1.0.0",
+  "description": "A button for display information in the leaflet map",
+  "main": "src/js/leaflet-infoButton.js",
+  "scripts": {
+    "start": "npx http-server",
+    "build-start": "npm run build && npm start",
+    "build": "webpack"
+  },
+  "author": "Abel Delgado",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "leaflet": "^1.6.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
