@@ -1,5 +1,5 @@
 {
-  "name": "leaflet.infoButton",
+  "name": "leaflet.infobutton",
   "version": "1.0.0",
   "description": "A button for display information in the leaflet map",
   "main": "src/js/leaflet-infoButton.js",
