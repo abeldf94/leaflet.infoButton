@@ -1,8 +1,8 @@
 {
   "name": "leaflet.infobutton",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A button for display information in the leaflet map",
-  "main": "src/js/leaflet-infoButton.js",
+  "main": "dist/leaflet-infoButton.js",
   "scripts": {
     "start": "npx http-server",
     "build-start": "npm run build && npm start",
