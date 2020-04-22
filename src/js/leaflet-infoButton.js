@@ -57,7 +57,7 @@ require('../css/leaflet-infoButton.css'); // Webpack hook
             (element.style.display !== "none") && (element.style.display = "none")
           });
         }
-      });
+      }, this);
 
       L.DomEvent.on(this.infoWindowContainer, 'click', function () {
         Array.from(document.getElementsByClassName("leaflet-top leaflet-right")).forEach(element => {
